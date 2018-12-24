@@ -6,6 +6,27 @@ import {fetchQuizes} from '../../store/actions/quiz';
 import './QuizList.scss';
 
 class QuizList extends Component {
+// method without redux
+/*
+  async componentDidMount() {
+    try {
+      const response = await axios.get(`${serverUrl}/quizes`);
+      const quizes = [];
+      Object.keys(response.data).forEach((key, index) => {
+        quizes.push({
+          id: key,
+          name: `Test #${index + 1}`
+        })
+      });
+      this.setState({
+        quizes, loading: false
+      });
+      console.log(response.data);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+*/
   componentDidMount() {
     this.props.fetchQuizes();
   }
