@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "email": "test@test.test",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+  "quizes": [
+    [
+      {
+        "question": "Question 1",
+        "id": 1,
+        "rightAnswerId": 1,
+        "answers": [
+          {
+            "text": "Right answer",
+            "id": 1
+          },
+          {
+            "text": "Wrong answer",
+            "id": 2
+          },
+          {
+            "text": "Wrong answer",
+            "id": 3
+          },
+          {
+            "text": "Wrong answer",
+            "id": 41
+          }
+        ]
+      },
+      {
+        "question": "Question 2",
+        "id": 2,
+        "rightAnswerId": 2,
+        "answers": [
+          {
+            "text": "Wrong answer",
+            "id": 1
+          },
+          {
+            "text": "Right answer",
+            "id": 2
+          },
+          {
+            "text": "Wrong answer",
+            "id": 3
+          },
+          {
+            "text": "Wrong answer",
+            "id": 41
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "question": "Question 1",
+        "id": 1,
+        "rightAnswerId": 3,
+        "answers": [
+          {
+            "text": "Wrong answer",
+            "id": 1
+          },
+          {
+            "text": "Wrong answer",
+            "id": 2
+          },
+          {
+            "text": "Right answer",
+            "id": 3
+          },
+          {
+            "text": "Wrong answer",
+            "id": 41
+          }
+        ]
+      },
+      {
+        "question": "Question 2",
+        "id": 2,
+        "rightAnswerId": 1,
+        "answers": [
+          {
+            "text": "Right answer",
+            "id": 1
+          },
+          {
+            "text": "Wrong answer",
+            "id": 2
+          },
+          {
+            "text": "Wrong answer",
+            "id": 3
+          },
+          {
+            "text": "Wrong answer",
+            "id": 41
+          }
+        ]
+      },
+      {
+        "question": "Question 3",
+        "id": 3,
+        "rightAnswerId": 2,
+        "answers": [
+          {
+            "text": "Wrong answer",
+            "id": 1
+          },
+          {
+            "text": "Right answer",
+            "id": 2
+          },
+          {
+            "text": "Wrong answer",
+            "id": 3
+          },
+          {
+            "text": "Wrong answer",
+            "id": 41
+          }
+        ]
+      }
+    ]
+  ]
+}
